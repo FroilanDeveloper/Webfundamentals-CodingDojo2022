@@ -1,0 +1,36 @@
+.search, .add, .create  {
+    display: block;
+    margin-bottom: 10px;
+    height: 50px;
+    font-style: italic;
+}
+
+.search {
+    width: 100px;
+    font-weight: 500;
+    border-radius: 30px;
+    color: lightblue;
+    border: 5px solid lightblue;
+    background-color: white
+}
+
+
+.add {
+    width: 40px;
+    background-color: rgb(5, 199, 157);
+    color:white;
+    border-radius: 50%;
+    border: none;
+}
+
+.create {
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+}
+
+.create {
+    box-shadow: 5px 5px black;
+}
+/* bonus applying box shadow */
