@@ -16,30 +16,26 @@ h1 {
     margin:0px auto;
 }
 
-.daft {
+.box {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 10px
+}
+
+.daft {
     background-color:blue;
-    padding: 10px;
 }
 
 .cat {
-    display: flex;
-    align-items: center;
     justify-content: space-evenly;
     background-color:rgb(0, 117, 185);
-    padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px
 }
 
 .cool {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     background-color:rgb(2, 245, 184);
-    padding: 10px;
 }
 
 
