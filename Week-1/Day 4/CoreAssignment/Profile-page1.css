@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
 .navbar {
     height: 70px;
     display: flex;
@@ -21,7 +26,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    padding-left: 375px;
+    padding-left: 295px;
 }
 
 .navleft ul {
@@ -33,7 +38,7 @@
 }
 
 .navright {
-    padding-right: 375px;
+    padding-right: 295px;
 }
 
 button {
@@ -46,16 +51,12 @@ button {
 
 }
 
+
+
 .top-main-box {
     display: flex;
     justify-content: space-evenly;
 
-}
-
-
-body {
-    background-color: #f3f3f3;
-    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -120,7 +121,6 @@ a {
 
 .square > p {
     font-size:larger;
-    font-weight:;
 }
 
 .nav-container {

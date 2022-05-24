@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 onclick="alert('This is my comment')">Hello World</h1>
+    <button onclick="alert('Hello')">Click Me!</button>
+    <!-- We want to make a button that increments a count -->
+    <button onclick="specialCounter()"><span id="number">1</span>like</button>
+    <button onclick="counter(this)">1</button>
+    <!-- We want to bring in JS LAST so that everything else renders in first -->
+    <script src="script.js"></script>
+    <!-- How to link JavaScript -->
+</body>
+</html>

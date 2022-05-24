@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 200px;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+}
+
+
+.dojonary {
+    height: 100%;
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.searcharea {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.Search {
+    width: 200px;
+    height: 20px
+}
+
+.dojonary button  {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px black
+}
+
+.dojonary button {
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.containerleft {
+    width: 70%;
+    height: 800px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+
+.box1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+}
+
+.littleboxleft {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vocab {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px
+}
+
+.littleboxright {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.definition {
+    font-size: 25px;
+}
+
+.box2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.vocab button {
+    cursor: pointer;
+    width: 50px;
+    height: 30px; 
+    background-color: yellow;
+}
+
+.containerright {
+    width: 30%;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.box3 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.highlight {
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+
+h4 {
+    font-size: 20px;
+}
+
+.littleboxes button {
+    cursor: pointer;
+    font-size: 35px;
+    background-color: lightgreen;
+} 
+
+.big {
+    font-size: 30px;
+}
